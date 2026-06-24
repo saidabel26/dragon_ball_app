@@ -1,6 +1,6 @@
-android/** linguist-generated
-ios/** linguist-generated
-macos/** linguist-generated
-windows/** linguist-generated
-linux/** linguist-generated
-web/** linguist-generated
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
