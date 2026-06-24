@@ -1,0 +1,40 @@
+name: dragon_ball_app
+description: "Dragon Ball Super - App oficial de la serie."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.5
+  youtube_player_flutter: ^9.1.1
+  url_launcher: ^6.3.1
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icono.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/portada.mp4
+    - assets/Goku.png
+    - assets/Vegeta.png
+    - assets/Roshi.png
+    - assets/Broly.png
+    - assets/icono.png
+    - assets/mi_foto.jpeg
